@@ -41,7 +41,7 @@ public class Datasource {
 			insertIntoAlbums = conn.prepareStatement(Constants.INSERT_ALBUM, Statement.RETURN_GENERATED_KEYS);
 			insertIntoSongs = conn.prepareStatement(Constants.INSERT_SONG);
 
-			queryArtist = conn.prepareStatement(Constants.QUERY_ALBUM);
+			queryArtist = conn.prepareStatement(Constants.QUERY_ARTIST);
 			queryAlbum = conn.prepareStatement(Constants.QUERY_ALBUM);
 
 			return true;
